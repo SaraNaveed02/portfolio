@@ -43,7 +43,7 @@ const Navbar = () => {
           <Image src="/linkdin.png" height={40} width={40} alt="linkdln" />
         </Link>
         <Link href="https://www.facebook.com/profile.php?id=61556625239013">
-          <Image src="/Fb.png" height={40} width={40} alt="fb" />
+          <Image src="/fb.png" height={40} width={40} alt="fb" />
         </Link>
       </div>
     </div>
