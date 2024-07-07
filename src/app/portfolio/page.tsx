@@ -11,8 +11,8 @@ const Portfolio = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-[200vh] w-screen ">
-        <div className="w-screen h-[calc(100vh-6rem)] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
+      <div className="h-full ">
+        <div className="  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
           <div className=" ">
             <Link href={"https://github.com/SaraNaveed02/45-questions"}>
               <Image
