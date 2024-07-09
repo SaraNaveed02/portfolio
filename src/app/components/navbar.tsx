@@ -9,7 +9,6 @@ const Navbar = () => {
       {/* NAvBAR */}
       <div className="flex ">
         <Image src={"/port.png"} alt="profolio" width={30} height={40} className="max-h-[]" />
-        <p className="font-bold place-content-end   ">rotfoliohub</p>
       </div>
       <div className="text-sm  font-light lg:text-xl m-2 p-2">
         <ol className="flex gap-4  ">
