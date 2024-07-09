@@ -6,8 +6,9 @@ import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "portfoliohub",
   description: "The best animated portfolio page",
 };
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+   
      <Transition>
       {children}
       <Footer/>
