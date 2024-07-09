@@ -5,21 +5,24 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="h-full  flex items-center justify-between text-xl ring-1 ring-slate-700 rounded-b-lg shadow-white">
+    <div className="h-full flex items-center justify-between text-xl ring-1 ring-slate-700 rounded-b-lg shadow-white">
       {/* NAvBAR */}
       <div className="flex ">
-        <Image src={"/port.png"} alt="profolio" width={30} height={40} className="max-h-[]" />
+        <Image src={"/port.png"} alt="profolio" width={30} height={40}  />
       </div>
-      <div className="text-sm  font-light lg:text-xl m-2 p-2">
+      <div className="text-sm  font-light lg:text-xl  p-2">
         <ol className="flex gap-4  ">
           <Link href={"/"} className="">
-            <li className="hover:underline ">Home</li>
+            <li className="">Home</li>
           </Link>
           <Link href={"/about"}>
-            <li className="hover:underline ">About</li>
+            <li className="">About</li>
           </Link>
           <Link href={"/portfolio"}>
-            <li className="hover:underline ">Portfolio</li>
+            <li className="">Portfolio</li>
+          </Link>
+          <Link href={"/contact"}>
+            <li className=" ">Contact</li>
           </Link>
         </ol>
       </div>
