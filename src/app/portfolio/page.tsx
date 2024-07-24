@@ -12,7 +12,7 @@ const Portfolio = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full ">
-        <div className="  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
+        <div className="  grid lg:grid-cols-3 text-white md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
           <div className=" ">
             <Link href={"https://github.com/SaraNaveed02/45-questions"}>
               <Image
