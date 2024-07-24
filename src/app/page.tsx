@@ -12,7 +12,7 @@ export default function Home() {
       transition={{ duration: 1 }}
     >
       <div className="h-full ">
-      <div className=" flex  px-2 gap-10  ">
+      <div className=" flex  px-2  ">
         {/* IMAGE CONTAINER */}
         <div className=" ">
           <Image src="/code.jpg" height={200} width={900} alt="programming" className="md:max-h-[800px]  lg:max-h-[400px] p-4 lg:max-w-[600px]  " />
