@@ -11,7 +11,7 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-screen mt-24">
+      <div className="h-full ">
       <div className=" flex  px-2 gap-10  ">
         {/* IMAGE CONTAINER */}
         <div className=" ">
