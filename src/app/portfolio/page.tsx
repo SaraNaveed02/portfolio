@@ -12,7 +12,7 @@ const Portfolio = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full ">
-        <div className="  grid lg:grid-cols-3 text-white md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
+        <div className="  grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-2 justify-between  items-center gap-5 p-3  ">
           <div className=" ">
             <Link href={"https://github.com/SaraNaveed02/45-questions"}>
               <Image
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] rounded-lg object-cover"
               />
-              <p className="font-semibold p-2 ">45 Questions</p>
+              <p className="font-semibold p-2 text-white">45 Questions</p>
             </Link>
           </div>
           <div className="">
@@ -34,7 +34,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] rounded-lg object-cover"
               />
-              <p className="font-semibold p-2 ">Calculator</p>
+              <p className="font-semibold p-2 text-white">Calculator</p>
             </Link>
           </div>
           <div className="">
@@ -46,7 +46,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2  ">ATM</p>
+              <p className="font-semibold p-2  text-white">ATM</p>
             </Link>
           </div>
           <div className="">
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2 ">Todo_List</p>
+              <p className="font-semibold p-2 text-white">Todo_List</p>
             </Link>
           </div>
           <div className="">
@@ -70,7 +70,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2 ">Count Down</p>
+              <p className="font-semibold p-2 text-white">Count Down</p>
             </Link>
           </div>
           <div className="r">
@@ -82,7 +82,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[300px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2  ">Word Counter</p>
+              <p className="font-semibold p-2  text-white">Word Counter</p>
             </Link>
           </div>
           <div className="">
@@ -94,7 +94,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2  ">Currency Converter</p>
+              <p className="font-semibold p-2 text-white">Currency Converter</p>
             </Link>
           </div>
           <div className=" ">
@@ -108,7 +108,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2 ">Student Managemet System</p>
+              <p className="font-semibold p-2 text-white">Student Managemet System</p>
             </Link>
           </div>
           <div className=" ">
@@ -120,7 +120,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover rounded-lg"
               />
-              <p className="font-semibold p-2  ">Adventure Game</p>
+              <p className="font-semibold p-2 text-white ">Adventure Game</p>
             </Link>
           </div>
           <div className="">
@@ -132,7 +132,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover  rounded-lg"
               />
-              <p className="font-semibold p-2  ">Number guessing game</p>
+              <p className="font-semibold p-2  text-white">Number guessing game</p>
             </Link>
           </div>
           <div className="">
@@ -144,7 +144,7 @@ const Portfolio = () => {
                 width={300}
                 className="max-h-[200px] object-cover  rounded-lg"
               />
-              <p className="font-semibold p-2 ">My Bank</p>
+              <p className="font-semibold p-2 text-white">My Bank</p>
             </Link>
           </div>
         </div>
