@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="h-full  flex items-center text-white justify-between text-xl ring-1 ring-slate-700 rounded-b-lg shadow-white">
+    <div className="h-full sticky top-0 flex items-center text-white justify-between text-xl ring-1 ring-slate-700 rounded-b-lg shadow-white">
       {/* NAvBAR */}
       <div className="flex ">
         <Image src={"/port.png"} alt="profolio" width={30} height={40}  />
