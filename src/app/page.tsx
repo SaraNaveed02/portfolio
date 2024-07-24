@@ -11,8 +11,8 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-[calc(100%-80px)]">
-      <div className="flex h-[calc(100%-80px)]">
+      <div className="h-screen">
+      <div className=" flex ">
         {/* IMAGE CONTAINER */}
         <div className=" ">
           <Image src="/code.jpg" height={200} width={900} alt="programming" className="md:max-h-[800px]  lg:max-h-[400px] p-4 lg:max-w-[600px]  " />
@@ -23,7 +23,7 @@ export default function Home() {
           {/* BUTTONS */}
           </div>
         </div>
-          <div className="p-5 text-center gap-4 sm:hidden ">
+          <div className="p-5 text-center gap-4 ">
             <button className="px-5 py-3   rounded-2xl ring-1 ring-black bg-black text-white font-bold text-sm">
               <Link href={'/portfolio'} className="text-center">View My Work</Link>
             </button>
