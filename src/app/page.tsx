@@ -23,7 +23,7 @@ export default function Home() {
           {/* BUTTONS */}
           </div>
         </div>
-          <div className="p-5 text-center gap-4 ">
+          <div className="p-5 text-center gap-4 sm:hidden ">
             <button className="px-5 py-3   rounded-2xl ring-1 ring-black bg-black text-white font-bold text-sm">
               <Link href={'/portfolio'} className="text-center">View My Work</Link>
             </button>
