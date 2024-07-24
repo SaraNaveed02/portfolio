@@ -12,7 +12,7 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full flex flex-col lg:flex-row  ">
-        <div className="h-full lg:w-1/2 lg:h-screen flex items-center justify-center text-4xl">
+        <div className="h-full lg:w-1/2 lg:h-screen text-white flex items-center justify-center text-4xl">
           <motion.div className="inline-flex ">
             {text.split("").map((letter, index) => {
               return (
@@ -41,7 +41,7 @@ const Contact = () => {
                 required
                 type="text"
                 placeholder="Name"
-                className="bg-slate-300 px-14  py-3 rounded-lg   text-black"
+                className="bg-slate-300 p-2 rounded-lg text-center w-auto text-black"
               />
             </div>
             <div className="text-center ">
@@ -49,7 +49,7 @@ const Contact = () => {
                 required
                 type="email"
                 placeholder="Email"
-                className="bg-slate-300 px-14 py-3 rounded-lg  text-black"
+                className="bg-slate-300 p-2 w-auto rounded-lg text-center text-black"
               />
             </div>
             <div className="text-center">
@@ -58,11 +58,11 @@ const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Mesage"
-                className="bg-slate-300 p-3 text-black rounded-lg  w-96 outline-none resize-none"
+                className="bg-slate-300 p-3 px-8 text-black rounded-lg text-center w-auto outline-none resize-none"
                 rows={6}
               />
             </div>
-            <div className="text-center lg:ml-20">
+            <div className="text-center lg:ml-9">
               <button className="ring-1 ring-black rounded-md bg-slate-600 py-3 px-2 w-56 text-center">
                 Submit
               </button>

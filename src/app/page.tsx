@@ -11,15 +11,15 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full">
+      <div className="h-screen mt-24">
       <div className=" flex  px-2 gap-10  ">
         {/* IMAGE CONTAINER */}
         <div className=" ">
-          <Image src="/code.jpg" height={200} width={800} alt="programming" className="md:max-h-[800px]  lg:max-h-[400px] p-4 lg:max-w-[600px]  " />
+          <Image src="/code.jpg" height={200} width={900} alt="programming" className="md:max-h-[800px]  lg:max-h-[400px] p-4 lg:max-w-[600px]  " />
         </div> 
         {/* IMAGE CONTAINER */}
         <div className="">
-          <Image src={"/pro.webp"} alt="programing" height={400} width={500} className="md:hiiden p-4 max-h-[400px] lg:max-w-[400px]" />
+          <Image src={"/pro.webp"} alt="programing" height={400} width={700} className="md:hiiden p-4 max-h-[400px] lg:max-w-[400px]" />
           {/* BUTTONS */}
           </div>
         </div>
