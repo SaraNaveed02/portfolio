@@ -11,7 +11,7 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-[calc(100-80px)]">
+      <div className="h-[calc(100%-80px)]">
       <div className="flex">
         {/* IMAGE CONTAINER */}
         <div className=" ">
