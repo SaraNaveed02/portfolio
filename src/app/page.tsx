@@ -11,8 +11,8 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="lg:h-full ">
-      <div className="md:h-full flex sm:h-[200px] ">
+      <div className="lg:h-full sm:h[250px]">
+      <div className="md:h-full flex sm:h-[250px] ">
         {/* IMAGE CONTAINER */}
         <div className=" ">
           <Image src="/code.jpg" height={200} width={900} alt="programming" className="md:max-h-[800px]  lg:max-h-[400px] p-4 lg:max-w-[600px]  " />
