@@ -20,7 +20,7 @@ const Aboutpage = () => {
               <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
               {/* BIOGRSPHY DESC */}
               <p className="text:lg">
-              I am a front-end web developer with expertise in website development. I am also learning about backend development.</p>
+              I am a front-end web developer with expertise in website development.</p>
               {/* BIOGRSPHY SIGN SVG */}
               <div className=""></div>
               {/* BIOGRSPHY SCROLL SVG */}
